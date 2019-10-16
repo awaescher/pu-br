@@ -16,3 +16,10 @@ Dynamically builds the remote URL of the current branch and opens it with the de
 Chains both of the prior commands. This comes very handy if you are pushing new branches regularly to create Pull-Requests afterwards in the web UI of your repository.
 
 It pushes your local commits to a new upstream branch and opens the web UI afterwards from which you should be able to create a Pull-Request with just a few mouse clicks.
+
+---
+
+#### Installation
+ - Open PowerShell, type `notepad $PROFILE` and hit enter.
+ - Add the functions from the ps1-file of this repository, save and close notepad.
+ - Restart PowerShell, that's it.
