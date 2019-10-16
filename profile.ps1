@@ -20,6 +20,7 @@ function Push-Upstream
 function Browse-Remote 
 {
     $remote = Invoke-Expression 'git remote get-url origin'
+    $remote = $remote.Replace('.git', '')
 
     if ($remote)
     {
