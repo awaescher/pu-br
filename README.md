@@ -1,1 +1,1 @@
-Moved to https://github.com/awaescher/Poshify
+➡ Moved to https://github.com/awaescher/Poshify (see "PowerShell")
